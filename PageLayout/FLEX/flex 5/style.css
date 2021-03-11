@@ -1,0 +1,81 @@
+* {
+    margin:0;
+    box-sizing: border-box;
+}
+
+ main{
+    display:flex;
+    height: 500px;
+    width: 500px;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: cornflowerblue;
+    background-color: yellowgreen;
+    border:2px black solid;
+    width: 300px;
+    flex-grow: 1;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    border: cornflowerblue;
+    background-color: yellowgreen;
+    flex-grow: 2;
+   
+    }
+
+div {
+    background-color: cyan;
+    
+    text-align: center;
+    
+    }
+
+aside div {
+   background-color: blue;
+   border-radius: 35px;
+   width: 70px;
+    height: 70px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

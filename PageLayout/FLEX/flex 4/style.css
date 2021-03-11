@@ -1,0 +1,71 @@
+* {
+    margin:0;
+    box-sizing: border-box;
+}
+
+div {
+    border:coral 1px solid ;
+    text-align: center;
+    background-color: cyan;
+    
+}
+
+
+ .same-size{
+    display:flex;
+    border: cornflowerblue;
+    background-color: yellowgreen;
+    border:2px black solid;
+}
+
+.first-small {
+    display: flex;
+    border: cornflowerblue;
+    background-color: yellowgreen;
+    border:2px black solid;
+}
+
+
+.same-size div {
+    flex-grow:1;
+}
+
+.small {
+    flex-grow: 1;
+
+}
+.normal {
+    flex-grow: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

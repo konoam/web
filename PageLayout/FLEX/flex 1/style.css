@@ -1,0 +1,39 @@
+* {
+    margin:0;
+    box-sizing: border-box;
+}
+body {
+    width: 1000px;
+    height: 1000px;
+}
+
+.row {
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border: cornflowerblue;
+    height: 300px;
+    width: 800px;
+
+}
+
+.column {
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: cornflowerblue;
+    margin-top: 50px;
+    height: 800px;
+    width: 300px;
+
+
+}
+
+div {
+    border:coral 1px solid ;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: cyan;
+    
+}

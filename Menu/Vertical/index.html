@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js"></script>
+    <title>Vertical Navbar</title>
+</head>
+<body>
+    <h1>Vertical Navbar</h1>
+
+    <main>
+    <aside>
+        <nav>
+            <ul>
+                <li> <a href="#" onclick="showAbout()">אודות</a></li>
+                <li> <a href="#" onclick="showProducts()">מוצרים</a></li>
+                <li class="dropdown"> 
+                    <a  href="#" onclick="showServices()">שירותים</a>
+
+                    <div class="dropdown-content">
+                        <div>submenu 1</div>
+                        <div>submenu 2</div>
+                        <div>submenu 3</div>
+                    </div>
+                   
+                </li>     
+            </ul>
+        </nav>
+    </aside>
+
+    <section class="content-home">
+        <p id="about"> <h1>About</h1></p>
+        <p id="products"><h1>Products</h1></p>
+        <p id="services"><h1>Service</h1></p>
+
+    </section>
+    
+
+   
+
+
+    </main>
+  
+</body>
+</html>

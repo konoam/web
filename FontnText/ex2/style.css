@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+body {
+    font-family: 'Oswald';
+    font-size: 20px;
+}
+
+
+.change-font-size {
+    font-size: 2em;
+    height: 50vh;
+    background-color: azure;
+
+}
+
+p {
+    text-transform: capitalize;
+    font-size: 2em;
+    width: 50vw;
+    height: 50vh;
+    background-color: blueviolet;
+    overflow: scroll;
+}
+
+

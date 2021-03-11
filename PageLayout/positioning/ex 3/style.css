@@ -1,0 +1,35 @@
+* {
+    margin:0px;
+    box-sizing: border-box;
+}
+h1 {
+    padding: 40px;
+}
+
+
+section {
+    height: 500px;
+    width: 85%;
+    border: 2px dashed pink;
+    direction: rtl;
+    padding-right: 5%;
+   }
+
+nav {
+    height: 500px;
+    width: 15%;
+    position: absolute;
+    top:0px ;
+    right:0px;
+    border: 2px dashed pink;
+    direction: rtl;
+    padding-right: 5%;
+}
+
+img {
+    width: 300px;
+}
+p {
+    padding: 10px;
+}
+

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"> </script>
+    <link rel="stylesheet" href="style.css" >
+    <title>Sign Up</title>
+</head>
+<body>
+    <h1>Welcome: SignUp</h1>
+
+    <form>
+        <fieldset>
+            <legend>Phase 1</legend>
+            <div>
+                <label for"email">Email: </label>
+                <input type="email" id="email" placeholder="Enter your eMail">         
+            </div>
+            <div>
+                <label for"password">Password:</label>
+                <input type="password" id="password">         
+            </div>
+
+            <div>
+                <label for"repassword">rePassword</label>
+                <input type="password" id="password" name="repassword">         
+            </div>
+           
+
+
+           
+
+            <div>
+                <label for="age">Age</label><br>
+                <input type="number"  id="age" min="35", max="120" value="37" step="10">
+            </div>
+        </fieldset>
+
+         <fieldset>
+            <legend>Phase 2</legend>
+
+
+
+            <div>
+                <h4>Status</h4>
+                <input type="radio" name="status" id="status-single" value="Single">
+                <label for="status-single">Single</label>
+                <input type="radio" name="status" id="gender-married" value="Married">
+                <label for="status-married">Married</label>
+                <input type="radio" name="status" id="gender-other" value="Other">
+                <label for="status-other">Other</label>
+            </div>
+
+            <div>
+                <label for="my-story">feel free to describe </label><br>
+               <textarea name="my-story" row="15" cols="50"></textarea>
+            </div>
+
+
+            <div>
+                <h4>Select your hobbies</h4>
+                <input checked type="checkbox" id="hobby1" value="hobby 1">
+                <label for="hobby1">hobby 1</label>
+                <input  type="checkbox" id="hobby2" value="hobby 2">
+                <label  for="hobby2">hobby 2</label>
+
+            </div>
+            <input type="hidden" name="linked_from" value="W24LCH" id="facebook">
+        </fieldset>
+
+        <fieldset>
+            <legend>Phase 3</legend>
+
+        
+            <div>
+                <label for="file">Profile Picture</label>
+                <input type="file"  accept="image/*" name="file" id="file" multiple>
+            </div>
+            <div>
+                <label for="my-story">Tell us about yourself </label><br>
+               <textarea name="my-story" row="15" cols="50"></textarea>
+            </div>
+
+            <div>
+                <label for="area">Area</label>
+                <select  name="select" id="select" >
+                    <option value="0">select one ..</option>
+                    <option selected value="2">North</option>
+                    <option value="3">Center</option>
+                    <option value="4">South</option>
+                </select>
+
+            </div>
+        </fieldset>
+
+            <input type="reset">
+
+            <button type="button" onclick="submitForm()">Submit</button>
+
+       
+
+    </form>
+
+
+    
+</body>
+</html>

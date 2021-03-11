@@ -1,0 +1,35 @@
+.parent {
+    background-color: coral;
+    width: 400px;
+    height: 400px ;
+    position: absolute;
+
+}
+
+.top-right {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border: 3px solid #73AD21;
+}
+.top-left {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border: 3px solid #73AD21;
+
+}
+.bottom-right {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    border: 3px solid #73AD21;
+
+}
+.bottom-left {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    border: 3px solid #73AD21;
+
+}

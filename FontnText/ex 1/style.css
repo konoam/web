@@ -1,0 +1,31 @@
+@font-face{
+    font-family:'noamk';
+    src: 
+        url('fonts/AkayaTelivigala-Regular.ttf')
+        format('truetype') ;
+        font-weight: 400;
+        font-style: normal;
+}
+
+@font-face{
+    font-family:'noamk';
+    src: 
+        url('fonts/AkayaTelivigala-Regular.ttf')
+        format('truetype') ;
+        font-weight: 600;
+        font-style: bolder;
+}
+
+
+
+.system-font{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:50px;
+}
+
+.google-font {
+    font-family: 'noamk';
+    font-size:50px;
+}
+
+

@@ -1,0 +1,36 @@
+* {
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+ .align-center{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+    border:2px black solid;
+}
+
+.align-streched {
+    display:flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    border: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+    border:2px black solid;
+}
+
+
+
+div {
+    border:coral 1px solid ;
+    text-align: center;
+    background-color: cyan;
+    
+}
