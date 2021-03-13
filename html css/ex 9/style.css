@@ -1,0 +1,13 @@
+#title {
+    border-style: dashed;
+    border-width: 10px;
+    padding-top: 10px;
+    padding-left: 20;
+    margin-bottom: 50;
+    margin-left:40;
+}
+
+body{
+    direction:rtl;
+    text-align: center;
+}

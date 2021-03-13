@@ -1,0 +1,12 @@
+.marked{
+    direction:rtl;
+    text-align: right;
+}
+
+a[href*=wikipedia]{
+    letter-spacing: 20px
+}
+
+a[href*=zap]{
+    letter-spacing: 2em
+}

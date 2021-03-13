@@ -1,0 +1,26 @@
+<html>
+    <head>
+    <script src="script.js"></script> 
+    <link href="style.css"  rel="stylesheet"/>
+    <script>
+        function changeBColor()
+        {
+            document.body.style.backgroundColor ='pink';
+        }
+        /*
+        function changeImage(){
+    document.getElementById('img').src = 'energy.jpg';}*/
+     </script>  
+    </head>
+
+    <body>
+        <h1 id="headline"> Low energy dogs </h1>
+        <img id ="img" src="relaxed.jpg" width=200/>
+        <br/>
+
+        <button onclick ="changeImage()">Change Image</button> <br/>
+        <button onclick ="document.getElementById('headline').innerHTML ='High Energy dogs';">Change Title</button><br/>
+        <button onclick ="changeBColor()">change bg color</button><br/>
+
+
+</html>
