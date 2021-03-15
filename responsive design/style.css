@@ -1,0 +1,52 @@
+/* assuming default is mobile */
+*{
+    font-size: 5px;
+}
+
+div {
+    background-color: green;
+    width:300px;
+    height:150px;
+
+}
+/* tablet */
+@media screen and (min-width: 601px) and (max-width:900px) {
+
+  div {
+    background-color: yellow;
+    border: 5px dashed purple;
+    }
+
+    .thirty {
+        color:red;
+    }
+  }
+
+/* desktop */
+  @media screen and (min-width: 901px) {
+
+    div {
+      background-color: pink;
+      
+      }
+  
+      .thirty {
+          color:red;
+      }
+    }
+
+
+
+.ten {
+    font-size: 2em;
+}
+
+.tewenty {
+    font-size: 4em; 
+}
+
+.thirty {
+    font-size: 6em;
+}
+
+

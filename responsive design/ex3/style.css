@@ -1,0 +1,38 @@
+
+img {
+    display: none;
+}
+
+p {
+    display: none;
+}
+
+video {
+    display: none;
+}
+
+
+/* image */
+@media screen and (min-width: 300px) {
+    
+    img {
+        display: block;
+    }
+}
+  
+
+/* text */
+@media screen and (aspect-ratio: 4/3) {
+    
+    p {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    
+    video {
+        display: block;
+    }
+}
+
