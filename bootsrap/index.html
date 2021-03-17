@@ -86,7 +86,53 @@
       </div> <!-- row close-->
     </div> <!-- container close-->
 
+    <form>
+        <fieldset>
 
+            <legend>information</legend>
+            <div class="form-group row">
+                <label class="col-12 col-sm-2" for="email">Email</label>
+                <input class="col-12 col-sm-10" type="email" class="form-control" id="email">
+            </div>
+
+            <div class="form-group row">
+                <label class="col-12 col-sm-2" for="password">password</label>
+                <input class="col-12 col-sm-10"type="password" class="form-control" id="password">
+                <p>obius instructions</p>
+            </div>
+
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#info-modal">Open modal</button>
+            <div class="modal" id="info-modal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                           <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Modal Heading</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        Modal body..
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </fieldset>
+        
+
+
+
+    </form>
 
 
       </div>
